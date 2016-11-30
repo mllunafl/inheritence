@@ -1,7 +1,7 @@
 /**
  * Created by LunaFlores on 11/30/16.
  */
-public class Instrument {
+public abstract class Instrument {
     private String type;
     private String color;
 
@@ -16,6 +16,8 @@ public class Instrument {
     public String getColor() {
         return color;
     }
+
+    public abstract String play();
 
     @Override
     public String toString() {

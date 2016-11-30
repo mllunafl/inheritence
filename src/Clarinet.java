@@ -21,6 +21,11 @@ public class Clarinet  extends Woodwind{
     }
 
     @Override
+    public String play() {
+        return "blow";
+    }
+
+    @Override
     public String toString() {
         return "Clarinet{" +
                 "brand='" + brand + '\'' +

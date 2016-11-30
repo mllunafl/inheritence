@@ -3,7 +3,7 @@ import java.time.LocalDate;
 /**
  * Created by LunaFlores on 11/30/16.
  */
-public class Woodwind extends Instrument {
+public abstract class Woodwind extends Instrument {
     private LocalDate dob;
     private Integer notes;
 
